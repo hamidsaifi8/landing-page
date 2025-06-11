@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff7f2;
+  color: #111;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.navbar .logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #f4623a;
+}
+
+.navbar nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar nav a:hover {
+  color: #f4623a;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.hero-left {
+  flex: 1;
+  max-width: 500px;
+}
+
+.hero-left h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-left .highlight {
+  color: #3cb879;
+}
+
+.hero-left p {
+  margin-bottom: 1.5rem;
+  color: #555;
+  line-height: 1.6;
+  word-wrap: normal;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn.black {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.btn.border {
+  border: 2px solid #f4623a;
+  background: transparent;
+  color: #f4623a;
+}
+
+.participants {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.participants img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: -10px;
+  border: 2px solid white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.participants span {
+  margin-left: 15px;
+  font-weight: 500;
+  color: #666;
+}
+
+.total-trips {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.total-trips small {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #777;
+}
+
+.hero-right {
+  display: flex;
+  position: relative;
+}
+
+.hero-image img {
+  width: 70%;
+  background: none;
+  /* margin-left: -40px; */
+}
+
+.info-card {
+  position: absolute;
+
+  right: 10px;
+  height: 77vh;
+  background: #fff;
+  opacity: 0.7;
+  padding: 1rem 1.5rem;
+  font-size: 0.95rem;
+}
+
+.info-card p {
+  margin-bottom: 0.5rem;
+}
